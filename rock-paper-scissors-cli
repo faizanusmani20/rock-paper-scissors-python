@@ -29,3 +29,13 @@ scissors = """
       (____)
 ---.__(___)
 """
+
+choices = {
+    "rock": rock,
+    "paper": paper,
+    "scissors": scissors
+}
+
+print(Fore.CYAN + "=" * 40)
+print(Fore.YELLOW + "🎮 ROCK PAPER SCISSORS 🎮")
+print(Fore.CYAN + "=" * 40)
